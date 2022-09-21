@@ -5,7 +5,7 @@ def main():
     env = sys.argv[1]
     print(env)
     dbdetails = DB_DETAILS[env]
-    #print(dbdetails)
+    print(dbdetails)
 
 
 if __name__ == '__main__':
