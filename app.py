@@ -5,8 +5,8 @@ def main():
     env = sys.argv[1]
     dbdetails = DB_DETAILS[env]
     tables = get_tables('table_list.txt')
-    for table in tables['table_name']:
-        print(table)
+    #for table in tables['table_name']:
+        #print(table)
 
 
 if __name__ == '__main__':
